@@ -6,11 +6,11 @@ CREATE TABLE users (
 
 CREATE TABLE projects (
   id INTEGER PRIMARY KEY
-  title
-  category
-  funding_goal
-  start_date
-  end_date
+  title TEXT,
+  category TEXT,
+  funding_goal INTEGER,
+  start_date TEXT,
+  end_date TEXT
 );
 
 CREATE TABLE pledges (
