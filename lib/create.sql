@@ -5,7 +5,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE projects (
-  id INTEGER PRIMARY KEY
+  id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
   funding_goal INTEGER,
@@ -14,5 +14,6 @@ CREATE TABLE projects (
 );
 
 CREATE TABLE pledges (
+  id INTEGER PRIMARY KEY,
 
 );
